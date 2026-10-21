@@ -8,7 +8,9 @@ nav_order:	1
 
 This project supports the systematic collection and attribution of historic cemeteries throughout Kentucky using 1950s U.S. Geological Survey (USGS) topographic maps and other historical and archaeological records.
 
-Work is organized by county, with research findings and spatial data reviewed before integration into the statewide master geodatabase (GDB).
+The project is administered by the U.S. Forest Service’s Daniel Boone National Forest, Redbird Ranger District, and is conducted in collaboration with the Kentucky Heritage Council and the Commonwealth Office of Technology’s Division of Geographic Information.
+
+Work is organized by county, with research findings and spatial data reviewed before integration into the statewide master geodatabase.
 
 ## Project Principles
 
@@ -28,7 +30,7 @@ Each county progresses through five general stages:
 4. **Rework** — Address review findings and document unresolved issues.
 5. **Completion and Integration** — Record progress and incorporate reviewed data into the master GDB according to current project procedures.
 
-The county progress tracker records assignments, workflow status, review progress, and outstanding questions (see **Team Access**).
+The county progress tracker records assignments, workflow status, review progress, and outstanding questions (see [Team Access](https://github.com/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY)).
 
 ## Data Quality and Documentation
 
