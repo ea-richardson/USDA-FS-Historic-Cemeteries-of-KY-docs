@@ -32,12 +32,6 @@ Each county progresses through five general stages:
 
 The county progress tracker records assignments, workflow status, review progress, and outstanding questions (see [Team Access](https://github.com/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY)).
 
-## Data Quality and Documentation
-
-Project data should follow current standards and documented procedures. Contributors are responsible for maintaining accurate attributes, recording supporting sources, identifying data-quality issues, and documenting conflicting evidence or uncertainty.
-
-The presence of a cemetery candidate in project records does not necessarily mean its location or associated information has been independently verified.
-
 ## Development Status
 
 Project methods, data structures, metadata standards, and workflows may evolve as research and development continue. Documentation will be updated as project standards and approved procedures evolve.
