@@ -1,174 +1,105 @@
-# just-the-docs-template
+# USDA-FS-Historic-Cemeteries-of-KY-docs
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+## Project Overview
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+This project supports the systematic identification, digitization, and documentation of historic cemeteries throughout Kentucky using 1950s U.S. Geological Survey (USGS) topographic maps and other historical and archaeological records.
 
-More specifically, the created site:
+The project establishes a consistent, county-based workflow for historical research, spatial data development, quality control, and integration of verified cemetery data into a master geodatabase (GDB).
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+## Project Scope
 
-To get started with creating a site, simply:
+Project activities include:
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+- Reviewing historical USGS topographic maps and other relevant records.
+- Identifying potential historic cemetery locations.
+- Digitizing cemetery locations and associated spatial features.
+- Compiling and attributing county-level cemetery data.
+- Documenting source materials, research findings, uncertainties, and methodological decisions.
+- Reviewing data for completeness, consistency, and spatial accuracy.
+- Tracking corrections, outstanding questions, and rework.
+- Integrating reviewed county data into the master geodatabase.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+Research findings and spatial data should be supported by appropriate source documentation. Uncertainties and unresolved discrepancies should be recorded rather than treated as confirmed findings.
 
-After completing the creation of your new site on GitHub, update it as needed:
+## Workflow
 
-## Replace the content of the template pages
+Work is organized by county. Each county progresses through collection, review, and rework stages before its data is incorporated into the master geodatabase.
 
-Update the following files to your own content:
+The county progress tracker is the primary record of county assignments and workflow progress. Contributors should keep it current throughout the project.
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+The tracker records:
 
-## Changing the version of the theme and/or Jekyll
+- County assignments and responsibility.
+- Current workflow status.
+- Review and rework progress.
+- Completion dates.
+- Master GDB integration status.
+- Outstanding research questions and data-quality concerns.
+- Methodological decisions requiring documentation.
 
-Simply edit the relevant line(s) in the `Gemfile`.
+### General Workflow Stages
 
-## Adding a plugin
+1. **Research:** Examine historical maps and other relevant historical and archaeological records to identify potential cemetery locations.
+2. **Data Compilation:** Digitize identified locations, populate required attributes, and document supporting sources.
+3. **Review:** Evaluate the compiled data for completeness, consistency, source documentation, and spatial accuracy.
+4. **Rework:** Resolve review findings, correct identified issues, and document outstanding discrepancies.
+5. **Completion and Integration:** Record county completion and incorporate reviewed data into the master geodatabase according to current project procedures.
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+Specific acceptance criteria and stage requirements may be refined as project methods develop.
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+## Data Management and Quality Control
 
-- Add the following to your site's `Gemfile`:
+Data should be developed and maintained according to current project standards and documented procedures.
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+Contributors are responsible for:
 
-- And add the following to your site's `_config.yml`:
+- Maintaining accurate and complete attribute information.
+- Recording source information and relevant research notes.
+- Documenting uncertainty and conflicting evidence.
+- Identifying and reporting data-quality issues.
+- Addressing review comments and tracking rework.
+- Keeping the county progress tracker current.
+- Following established procedures for master GDB integration.
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+Methodological decisions that affect cemetery identification, interpretation, digitization, or attribution should be documented to support consistency across counties.
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+## Development Status
 
-## Publishing your site on GitHub Pages
+This repository supports the current research and development phase of the project.
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+Data structures, metadata standards, research methods, and workflows will be refined as the project progresses. Documentation and working procedures should be updated as project standards and approved methods change.
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+*The presence of a cemetery candidate in project records does not, by itself, establish that the location has been independently verified or that all associated information is complete.*
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+## Documentation
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+Project documentation should describe current working procedures, data standards, review requirements, and methodological decisions.
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+As documentation develops, it may be organized into the following topics:
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+- Research methods and historical source evaluation.
+- Cemetery identification and digitization procedures.
+- Data dictionaries, attribute definitions, and metadata standards.
+- County workflow and progress tracking.
+- Quality-control and rework procedures.
+- Master geodatabase validation and integration.
 
-## Building and previewing your site locally
+Refer to the current project documentation for the latest applicable guidance.
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
+## Distribution and Release
 
-1.  Change your working directory to the root directory of your site.
+This public repository and website support internal project research and development.
 
-2.  Run `bundle install`.
+Any future distribution, publication, or external release of project data, documentation, or other materials will be addressed through the appropriate review and approval processes.
 
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+Access to the repository and its contents should follow applicable project permissions and data-management requirements.
 
-    The built site is stored in the directory `_site`.
+## Project Principles
 
-## Publishing your built site on a different platform
+The project emphasizes:
 
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/_site/
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+- **Consistency:** Apply documented methods across Kentucky counties.
+- **Traceability:** Preserve source information and document research decisions.
+- **Data Quality:** Review spatial and attribute data before integration.
+- **Transparency:** Record uncertainty, conflicting evidence, and unresolved questions.
+- **Accountability:** Maintain current county assignments, status records, and review documentation.
