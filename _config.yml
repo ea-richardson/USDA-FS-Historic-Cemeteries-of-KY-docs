@@ -1,8 +1,5 @@
-title: USDA FS Historic Cemeteries of KY Documentation
+title: Historic Cemeteries of KY
 description: Documentation, including a comprehensive workflow guide, for the USDA Forest Service historic cemeteries GIS mapping project in Kentucky.
 theme: just-the-docs
 
-url: https://github.io/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY-docs
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://ea-richardson.github.io/USDA-FS-Historic-Cemeteries-of-KY-docs
