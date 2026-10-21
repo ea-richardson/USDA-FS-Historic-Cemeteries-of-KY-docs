@@ -9,11 +9,23 @@ url: https://ea-richardson.github.io/USDA-FS-Historic-Cemeteries-of-KY-docs
 
 # Aux links for the upper right navigation
 aux_links:
-  "Collaborator Access":
+  "Team Access":
     - "https://github.com/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY"
+
+# External navigation links
+nav_external_links:
+  - title: Team Access
+    url: https://github.com/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
 permalink: pretty
 
@@ -124,3 +136,10 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: 'Copyright &copy; 2026 Emily Richardson.'
+
