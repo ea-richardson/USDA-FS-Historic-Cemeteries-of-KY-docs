@@ -35,3 +35,6 @@ The county progress tracker records assignments, workflow status, review progres
 ## Development Status
 
 Project methods, data structures, metadata standards, and workflows may evolve as research and development continue. Documentation will be updated as project standards and approved procedures evolve.
+
+{: .note }
+This website was developed with the assistance of artificial intelligence (AI). Certain content, code snippets, and other materials may have been generated, suggested, or refined using AI tools as part of the development process. AI-assisted content and code should be reviewed and verified for accuracy, functionality, security, and suitability for the intended purpose. This disclosure is intended to provide transparency regarding the role of AI in the website's development.
