@@ -12,6 +12,11 @@ The project is administered by the U.S. Forest Service’s Daniel Boone National
 
 Work is organized by county, with research findings and spatial data reviewed before integration into the statewide master geodatabase.
 
+This phase of the project is generally proceeding **east to west**. Counties are grouped into numbered rankings, where:
+* Rank 1 = easternmost group
+* Rank 11 = westernmost group
+* 120 counties total
+
 ## Project Principles
 
 - **Consistency:** Apply documented methods across counties.
