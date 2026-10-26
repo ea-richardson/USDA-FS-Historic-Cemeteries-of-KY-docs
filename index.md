@@ -53,7 +53,7 @@ A cemetery may be:
 * a community cemetery,
 * or another type of burial ground represented by the project's source material.
 
-{: .note}
+{: .warning}
 > **Current inclusion principle:** If a cemetery is represented on a 1950s USGS topographic map, in either of the two USFS datasets, or in any external datasets from approved sources, it belongs in the initial inventory regardless of its present condition.
 
 ## Development Status
