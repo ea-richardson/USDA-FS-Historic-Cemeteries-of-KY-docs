@@ -6,8 +6,12 @@ permalink: /
 ---
 
 # Kentucky Historic Cemetery Mapping Project
+{: .fs-9 }
 
 A project to systematically digitize and attribute historic cemeteries throughout Kentucky using 1950s U.S. Geological Survey (USGS) topographic maps and other historical and archaeological records.
+{: .fs-6 .fw-300 }
+
+---
 
 The project is administered by the U.S. Forest Service’s Daniel Boone National Forest, Redbird Ranger District, and is conducted in collaboration with the Kentucky Heritage Council and the Commonwealth Office of Technology’s Division of Geographic Information.
 
