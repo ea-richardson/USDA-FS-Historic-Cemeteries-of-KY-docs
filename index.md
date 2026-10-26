@@ -37,13 +37,6 @@ Each county progresses through five general stages:
 
 The county progress tracker records assignments, workflow status, review progress, and outstanding questions (see [Team Access](https://github.com/ea-richardson/USDA-FS-Historic-Cemeteries-of-KY)).
 
-## Development Status
-
-Project methods, data structures, metadata standards, and workflows may evolve as research and development continue. Documentation will be updated as project standards and approved procedures evolve.
-
-{: .note }
-This website was developed with the assistance of artificial intelligence (AI). Certain content, code snippets, and other materials may have been generated, suggested, or refined using AI tools as part of the development process. AI-assisted content and code should be reviewed and verified for accuracy, functionality, security, and suitability for the intended purpose. This disclosure is intended to provide transparency regarding the role of AI in the website's development.
-
 ## What counts as a historic cemetery?
 The current project does not require the cemetery to be:
 * accessible,
@@ -62,3 +55,10 @@ A cemetery may be:
 
 {: .note}
 **Current inclusion principle:** If a cemetery is represented on a 1950s USGS topographic map, in either of the two USFS datasets, or in any external datasets from approved sources, it belongs in the initial inventory regardless of its present condition.
+
+## Development Status
+
+Project methods, data structures, metadata standards, and workflows may evolve as research and development continue. Documentation will be updated as project standards and approved procedures evolve.
+
+{: .note }
+This website was developed with the assistance of artificial intelligence (AI). Certain content, code snippets, and other materials may have been generated, suggested, or refined using AI tools as part of the development process. AI-assisted content and code should be reviewed and verified for accuracy, functionality, security, and suitability for the intended purpose. This disclosure is intended to provide transparency regarding the role of AI in the website's development.
