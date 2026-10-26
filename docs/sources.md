@@ -1,12 +1,23 @@
 ---
-title: Data Sources
+title: Sources
 nav_order: 2
 ---
 
-# Data Sources
-This project integrates historical and modern datasets from multiple sources to accurately identify and map cemeteries across Kentucky. While the reliability and completeness of these sources vary, they collectively provide a strong foundation for initial cemetery mapping efforts.
+# Sources
+{: .no_toc }
 
-## Source Hierarchy
+While the reliability and completeness of these sources vary, they collectively provide a strong foundation for initial cemetery mapping efforts.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Hierarchy
 
 For the current phase, the general order of authority is:
 
@@ -20,11 +31,11 @@ This hierarchy does not imply that lower-ranked sources are inherently less trus
 {: .note }
 Only USGS topos and two USFS datasets are currently being used to create cemetery geometry. All other sources are being used to identify and attribute cemeteries.
 
-## Primary Sources
+## Primary
 - **1950s USGS 7.5-minute quadrangles (1:24,000-scale topographic map)**
     - Available for download from:
         - Esri [Historical Topo Map Explorer](https://livingatlas.arcgis.com/topomapexplorer)
-        - USGS [topoView](https://ngmdb.usgs.gov/topoview/viewer). (*Downloads require extraction from a zipped folder before use.*)
+        - USGS [topoView](https://ngmdb.usgs.gov/topoview/viewer) (*Downloads require extraction from a zipped folder before use.*)
 - **USFS Daniel Boone National Forest (2013 Cemetery Points)**
     - Used to digitize cemeteries not appearing on topographic maps
     - Point feature class: *KY_CemData_Draft2013*
@@ -32,7 +43,7 @@ Only USGS topos and two USFS datasets are currently being used to create cemeter
     - Also used to digitize cemeteries absent from topographic maps
     - Point feature class: *Archaeology_HistoricCem_Centerpoints*
 
-## Supporting Sources
+## Supporting
 These sources are useful for identification, interpretation, attribution, and cross-checking, but **should not automatically override the primary evidence.**
 
 At this stage, the crowd-sourced Find a Grave site alone is not sufficient to establish a cemetery for inclusion unless the cemetery is also found in one or more of the project's primary sources.
@@ -48,7 +59,7 @@ At this stage, the crowd-sourced Find a Grave site alone is not sufficient to es
 - **[Google Maps & Google Street View](https://maps.google.com/)**
 - **[Kentucky Natural Color Imagery (2024)](https://kygeonet.maps.arcgis.com/home/webmap/viewer.html)**
 
-## Additional Sources
+## Additional
 - **[OpenStreetMap](https://www.openstreetmap.org/)**  
 - **[Regrid Property App Parcel Data](https://app.regrid.com/us/ky)** (*Used for determining cemetery land ownership and boundaries*)  
 - **[Cemeteries in Kentucky Database](https://kyhistory.com/digital/collection/LIB/id/493/)** (*Kentucky Historical Society Library Collection*)  
