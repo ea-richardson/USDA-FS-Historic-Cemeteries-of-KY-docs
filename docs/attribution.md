@@ -4,8 +4,21 @@ nav_order: 5
 ---
 
 # Attribution
+{: .no_toc }
+
+While the reliability and completeness of these sources vary, they collectively provide a strong foundation for initial cemetery mapping efforts.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ## Automated
-**Populate the *County_Name* field:**
+### Populate the *County_Name* field
 
 ```python
 arcpy.management.CalculateField(
@@ -19,7 +32,7 @@ arcpy.management.CalculateField(
 )
 ```
 
-**Populate the *Latitude* and *Longitude* fields:**
+### Populate the *Latitude* and *Longitude* fields
 
 ```python
 arcpy.management.CalculateGeometryAttributes(
@@ -31,7 +44,8 @@ arcpy.management.CalculateGeometryAttributes(
     coordinate_format="SAME_AS_INPUT"
 )
 ```
-**Populate the *Zip* field using [U.S. Postal Service ZIP Code Boundaries](https://www.arcgis.com/home/item.html?id=5f31109b46d541da86119bd4cf213848):**
+
+### Populate the *Zip* field using [U.S. Postal Service ZIP Code Boundaries](https://www.arcgis.com/home/item.html?id=5f31109b46d541da86119bd4cf213848)
 
 *How It Works:*
 - *The script checks if the *zip_zones* feature class exists in the geodatabase and performs a spatial join.*
@@ -120,7 +134,11 @@ print("Spatial join and field calculation completed successfully. Spatial join r
 ```
 
 ## Manual
-**Populate remaining attribute fields** (*Cemetery_Name1*, *Cemetery_Name2*, *Street_Address*, *City*, *Comments*, *Burial_Number*, *Link*). Note that some attribute fields may not have valid values available. If you are unable to find a valid value, leave the field blank and/or make a note in the "Comments" field.
+
+### Populate remaining attribute fields
+(*Cemetery_Name1*, *Cemetery_Name2*, *Street_Address*, *City*, *Comments*, *Burial_Number*, *Link*)
+
+Note that some attribute fields may not have valid values available. If you are unable to find a valid value, leave the field blank and/or make a note in the "Comments" field.
 
 Sources:
 - [Google Maps](https://www.google.com/maps)
@@ -151,7 +169,7 @@ Use your own judgment in assigning point attributes to digitized polygon feature
 
 Even if no Find a Grave point is near a cemetery of interest, Google Maps, OpenStreetMap, or Regrid parcel data may show a cemetery name. If this occurs, you may be able to find a Find a Grave match by searching the website and matching based on a unique cemetery name, address, or description. (Even potential matches can be linked in the "Comments" field.)
 
-**Input your search term and automatically open the Find a Grave search URL in your default browser:**
+### Input your search term and automatically open the Find a Grave search URL in your default browser
 
 ```python
 import webbrowser
@@ -207,7 +225,9 @@ else:
     webbrowser.open(url)
 ```
 
-**If you want to check unmatched/unknown cemeteries for headstones, nearby landmarks, or addresses in Google Maps:** *Run the next cell AFTER copying the approximate centroid coordinates of a digitized polygon. (Right-click the center of the cemetery in the map, select "Convert Coordinates", then select "DD".)*
+### If you want to check unmatched/unknown cemeteries for headstones, nearby landmarks, or addresses in Google Maps
+
+*Run this AFTER copying the approximate centroid coordinates of a digitized polygon. (Right-click the center of the cemetery in the map, select "Convert Coordinates", then select "DD".)*
 
 ```python
 import webbrowser, tkinter
@@ -221,7 +241,7 @@ def visual_check():
 visual_check()
 ```
 
-### Comments
+## Comments
 This field should be used to provide context and preserve information that does not fit cleanly into the structured fields. Be detailed yet concise.
 
 Examples include:
