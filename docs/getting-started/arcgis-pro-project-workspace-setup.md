@@ -16,7 +16,8 @@ nav_order: 4
 ---
 
 ## Add *HistoricalCemeteries_KY* Geodatabase
-**Select and add the *HistoricalCemeteries_KY* geodatabase to the project:**
+
+### Select and add the *HistoricalCemeteries_KY* geodatabase to the project
 
 *How It Works:*
 - *The user selects a geodatabase folder via a file dialog using Tkinter.*
@@ -63,7 +64,7 @@ else:
     print("Invalid selection or no geodatabase selected. Exiting.")
 ```
 
-***Make *HistoricalCemeteries_KY.gdb* the default database:***
+### Make *HistoricalCemeteries_KY.gdb* the default database
 
 ```python
 import arcpy
@@ -82,7 +83,8 @@ print(f"Default geodatabase set to: {gdb_path}")
 ```
 
 ## Create and/or Rename a Map
-**Rename an existing map or create a new map:**
+
+### Rename an existing map or create a new map
 
 *How It Works:*
 - *The script lists all existing maps in the current ArcGIS Pro project, allowing the user to choose either to rename an existing map or create a new one.*
@@ -189,7 +191,8 @@ arcpy.AddMessage(summary_message)
 ```
 
 ## Add GeoTIFFs
-**Add GeoTIFF files to the active map:**
+
+### Add GeoTIFF files to the active map
 
 *How It Works:*
 - *The script scans the county directory for valid GeoTIFF files, excluding those with "TMorth" in the filename.*
@@ -267,7 +270,7 @@ else:
     print(f"The county directory {county_directory} does not exist.")
 ```
 
-**Group GeoTIFFs in the Contents pane:**
+### Group GeoTIFFs in the Contents pane
 
 *How It Works:*
 - *The script checks if a "topos" group already exists in the active map; if not, it creates one.*
@@ -318,7 +321,8 @@ else:
 ```
 
 ## Add County Boundaries
-**Add the *ky_counties* feature class and update symbology to create a boundary outline of the county of interest:**
+
+### Add the *ky_counties* feature class and update symbology to create a boundary outline of the county of interest
 
 *How It Works:*
 - *The script checks if the specified feature class exists in the given geodatabase.*
@@ -384,7 +388,8 @@ else:
 ```
 
 ## Create Cemetery Polygon Feature Class
-**Create a copy of *Cemetery_PolygonFC_Template*, rename, and change symbology:**
+
+### Create a copy of *Cemetery_PolygonFC_Template*, rename, and change symbology
 
 *How It Works:*
 - *The script copies the "Cemetery_PolygonFC_Template" feature class to a new feature class, named after the county.*
@@ -451,7 +456,8 @@ print(f"Symbology applied: Semi-transparent bright pink fill with a transparent 
 ```
 
 ## Add Cemetery Point Data
-**Add *KYCemPts_FindaGrave_01292025*, *Archaeology_HistoricCem_Centerpoints*, and *KYCemPts_FindaGrave_01292025* feature classes to the map with custom symbology:**
+
+### Add *KYCemPts_FindaGrave_01292025*, *Archaeology_HistoricCem_Centerpoints*, and *KYCemPts_FindaGrave_01292025* feature classes to the map with custom symbology
 
 *How It Works:*
 - *The script checks if each feature class exists in the geodatabase and adds it to the active map.*
