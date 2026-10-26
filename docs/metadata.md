@@ -17,7 +17,7 @@ Proper metadata ensures the data is well-documented, easily understood, and can 
 
 ---
 
-## Run the cell below to ensure your name appears in the credits
+## Ensure your name appears in the credits
 ```python
 name = input("Please enter your full name (as it will appear in the credits): ")
 ```
