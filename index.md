@@ -5,7 +5,7 @@ nav_order:	1
 permalink: /
 ---
 
-# Kentucky Historic Cemetery Mapping Project
+# Kentucky Historic Cemetery Mapping
 {: .fs-9 }
 
 A project to systematically digitize and attribute historic cemeteries throughout Kentucky using 1950s U.S. Geological Survey (USGS) topographic maps and other historical and archaeological records.
