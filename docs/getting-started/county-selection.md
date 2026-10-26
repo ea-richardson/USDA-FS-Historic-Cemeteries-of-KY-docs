@@ -15,7 +15,7 @@ nav_order: 1
 
 ---
 
-## Define the County-Quadrangle Dictionary:
+## Define the County-Quadrangle Dictionary
 
 *The countyquads dictionary was manually created using the [Kentucky Geological Survey's Topographic Map Index](https://kgs.uky.edu/kgsweb/download/topo/topoindex.pdf). The dictionary may contain errors due to manual entry. Always verify that the selected quadrangles cover the entire county.*
 
@@ -150,7 +150,7 @@ countyquads = {
     }
 ```
 
-## Create a "county" variable:
+## Create a "county" variable
 
 ```python
 while True:
