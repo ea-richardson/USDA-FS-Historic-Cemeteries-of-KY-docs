@@ -111,7 +111,7 @@ else:
     print("Invalid input. Please re-run and enter 'y' or 'n'.")
 ```
 
-## Connect the "topos" folder to the project:
+## Connect the "topos" folder to the project
 
 ```python
 import arcpy
