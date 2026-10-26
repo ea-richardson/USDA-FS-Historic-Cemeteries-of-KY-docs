@@ -4,13 +4,25 @@ nav_order: 6
 ---
 
 # Metadata
-After digitizing all cemeteries and completing the attribute data entry, the next step is to add metadata to the feature classes. Proper metadata ensures the data is well-documented, easily understood, and can be efficiently shared and maintained. Follow the instructions below to complete the metadata entry process.
+{: .no_toc }
 
-**Run the cell below to ensure your name appears in the credits.**
+Proper metadata ensures the data is well-documented, easily understood, and can be efficiently shared and maintained. Follow the instructions below to complete the metadata entry process.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Run the cell below to ensure your name appears in the credits
 ```python
 name = input("Please enter your full name (as it will appear in the credits): ")
 ```
-**Create a cemetery point feature class:**
+
+## Create a cemetery point feature class
 
 ```python
 arcpy.management.FeatureToPoint(
@@ -28,7 +40,7 @@ If you have encounter an issue running the code below, check if the metadata is 
 - Save by selecting **Apply**/**OK**.
 - You may also need to restart ArcGIS Pro.
 
-**Edit the metadata of the point feature class:**
+## Create point feature class metadata
 
 *How It Works:*
 - *The script uses a regex pattern to extract the state abbreviation, place name, and year from GeoTIFF filenames and adds these details to a list.*
@@ -129,7 +141,8 @@ if feature_layer:
 else:
     print(f"No feature class found with the name '{county}_County_Points'.")
 ```
-**Edit the metadata of the polygon feature class:**
+
+## Create polygon feature class metadata
 
 ```python
 import os
