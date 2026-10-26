@@ -84,8 +84,6 @@ print(f"Default geodatabase set to: {gdb_path}")
 
 ## Create and/or Rename a Map
 
-### Rename an existing map or create a new map
-
 *How It Works:*
 - *The script lists all existing maps in the current ArcGIS Pro project, allowing the user to choose either to rename an existing map or create a new one.*
 - *If creating a new map, the script checks for any naming conflicts and prompts the user to provide a new name if needed.*
@@ -192,8 +190,6 @@ arcpy.AddMessage(summary_message)
 
 ## Add GeoTIFFs
 
-### Add GeoTIFF files to the active map
-
 *How It Works:*
 - *The script scans the county directory for valid GeoTIFF files, excluding those with "TMorth" in the filename.*
 - *It matches the filenames with a list of quadrangle names and adds the corresponding GeoTIFF files to the active map.*
@@ -270,7 +266,7 @@ else:
     print(f"The county directory {county_directory} does not exist.")
 ```
 
-### Group GeoTIFFs in the Contents pane
+## Group GeoTIFFs in the Contents pane
 
 *How It Works:*
 - *The script checks if a "topos" group already exists in the active map; if not, it creates one.*
