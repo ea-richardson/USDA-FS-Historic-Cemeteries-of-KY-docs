@@ -149,7 +149,7 @@ Sources:
 - [Regrid parcel data](https://app.regrid.com/us/ky)
 - [Cemeteries in Kentucky Database](https://kyhistory.com/digital/collection/LIB/id/493/)
 
-*See additional sources in the Data Sources section.*
+*See additional sources in the Sources section.*
 
 Where possible, each digitized cemetery should be matched to an existing Find a Grave cemetery record. The purpose is to connect the historical GIS record with an existing modern cemetery record.
 
@@ -160,10 +160,10 @@ When a match is found:
 * use the information as supporting evidence.
 
 {: .warning }
-**Burial counts:** `Burial_Number` is intended to record available burial information. A burial count from Find a Grave should not automatically be interpreted as the total historical number of people buried at a given location. If burial counts conflict, assign the larger number to this field and note the discrepancy in `Comments`.
+> `Burial_Number` is intended to record available burial information. A burial count from Find a Grave should not automatically be interpreted as the total historical number of people buried at a given location. If burial counts conflict, assign the larger number to this field and note the discrepancy in `Comments`.
 
 {: .note }
-**Potential matches:** If a Find a Grave record appears to correspond to the historical cemetery but the match is uncertain: (1) document the *potential* match in `Comments`; (2) preserve the source information; and (3) flag unusual or ambiguous cases for review.
+> If a Find a Grave record appears to correspond to the historical cemetery but the match is uncertain: (1) document the *potential* match in `Comments`; (2) preserve the source information; and (3) flag unusual or ambiguous cases for review.
 
 Use your own judgment in assigning point attributes to digitized polygon features. **The Find a Grave points may or may not overlap with digitized cemeteries; in some cases, a point may not overlap but will be in close proximity to the polygon.**
 
@@ -241,7 +241,7 @@ def visual_check():
 visual_check()
 ```
 
-## Comments
+### Comments
 This field should be used to provide context and preserve information that does not fit cleanly into the structured fields. Be detailed yet concise.
 
 Examples include:
