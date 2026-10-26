@@ -4,6 +4,19 @@ nav_order: 4
 ---
 
 # Digitization
+{: .no_toc }
+
+While the reliability and completeness of these sources vary, they collectively provide a strong foundation for initial cemetery mapping efforts.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 Manually digitize cemetery polygons using the topographic maps. (The point feature class will be created later.) Review topographic map symbols with this [map key](https://www.historicaerials.com/topo-map-key) or consult the [USGS documentation](https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf).
 
 Features in the *Archaeology_HistoricCem_Centerpoints* and *KY_CemData_Draft2013* feature classes should also be digitized.
@@ -41,9 +54,11 @@ For example, if sources provide:
 * Smith Family Cemetery (Source: Find a Grave)
 * Smith Burial Ground (Source: Find a Grave)
 * Old Smith Cemetery (Source: County Historical Society Data)
+
 then the primary name fields should contain:
 * **Cemetery_Name1**: Smith Cemetery
 * **Cemetery_Name2**: Old Smith Cemetery
-* The remaining names can be documented in `Comments`: "Also known as Smith Family Cemetery and Smith Burial Ground."
+
+The remaining names can be documented in `Comments`: "Also known as Smith Family Cemetery and Smith Burial Ground."
 
 The exact formatting of comments may be standardized later.
