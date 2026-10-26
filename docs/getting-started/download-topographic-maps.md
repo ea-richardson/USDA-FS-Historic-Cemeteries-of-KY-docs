@@ -22,7 +22,7 @@ Esri's source allows for direct download of GeoTIFFs, whereas downloads from the
 {: .note}
 > **It may also be useful to download current topographic maps from USGS's topoView.** Newer maps may include cemetery names that were absent on older maps, especially those that have expanded considerably since the 1950s. Additionally, some cemeteries may no longer exist due to changes in the landscape, such as the creation of reservoirs. Although these changes can be observed on Google Maps or through the [KyFromAbove Program imagery](https://kygeonet.maps.arcgis.com/home/webmap/viewer.html?webmap=ba05e691cf3a4acd9583b12ccf09856e), in some cases, comparing topographic layers in ArcGIS Pro by toggling layers on and off is more effective.
 
-## Generate URLs to directly download topos:
+## Generate URLs to directly download topos
 
 *How It Works:*
 - *Most quadrangles are named after a prominent place within the region.*
