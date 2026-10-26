@@ -43,3 +43,22 @@ Project methods, data structures, metadata standards, and workflows may evolve a
 
 {: .note }
 This website was developed with the assistance of artificial intelligence (AI). Certain content, code snippets, and other materials may have been generated, suggested, or refined using AI tools as part of the development process. AI-assisted content and code should be reviewed and verified for accuracy, functionality, security, and suitability for the intended purpose. This disclosure is intended to provide transparency regarding the role of AI in the website's development.
+
+## What counts as a historic cemetery?
+The current project does not require the cemetery to be:
+* accessible,
+* historically significant,
+* associated with a particular ethnic or religious group,
+* a particular size,
+* or currently visible.
+
+A cemetery may be:
+* a small family burial ground,
+* a rural cemetery,
+* a large urban cemetery,
+* a church cemetery,
+* a community cemetery,
+* or another type of burial ground represented by the project's source material.
+
+{: .note}
+**Current inclusion principle:** If a cemetery is represented on a 1950s USGS topographic map, in either of the two USFS datasets, or in any external datasets from approved sources, it belongs in the initial inventory regardless of its present condition.
