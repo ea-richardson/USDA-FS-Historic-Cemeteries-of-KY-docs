@@ -41,7 +41,7 @@ arcpy.management.CalculateGeometryAttributes(
     length_unit="",
     area_unit="",
     coordinate_system=None,
-    coordinate_format="SAME_AS_INPUT"
+    coordinate_format="DD"
 )
 ```
 
