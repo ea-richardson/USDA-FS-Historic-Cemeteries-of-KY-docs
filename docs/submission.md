@@ -1,4 +1,4 @@
----
+f---
 title: Submission
 nav_order: 7
 ---
@@ -109,7 +109,7 @@ else:
                └── [Geodatabase].zip
    ```
 
-6. Once QC1 has been completed by the QCer, a `QC1_Calls.zip` containing a shapefile will be added to the `QC1` folder. **Interns do not need to create or upload this file.**
+6. Once QC1 has been completed by the QCer, a `QC1_Calls.zip` containing a shapefile will be added to the `QC1` folder. **Interns do not need to create this file but will populate appropriate fields during rework.**
 
 7. Notify the appropriate personnel by email (supervisor and senior intern, if applicable) that the county assignment has been uploaded to Box and is ready for QC review. Do not attach the project files to the email; simply provide notification that the submission is available in the appropriate county folder.
 
