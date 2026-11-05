@@ -136,9 +136,17 @@ print("Spatial join and field calculation completed successfully. Spatial join r
 ## Manual
 
 ### Populate remaining attribute fields
-(*Cemetery_Name1*, *Cemetery_Name2*, *Street_Address*, *City*, *Comments*, *Burial_Number*, *Link*)
 
-Note that some attribute fields may not have valid values available. If you are unable to find a valid value, leave the field blank and/or make a note in the "Comments" field.
+1. Cemetery_Name1
+2. Cemetery_Name2
+3. Street_Address
+4. City
+5. Comments
+6. Burial_Number (typically the number of memorials from Find a Grave)
+7. Link (Find a Grave URL)
+8. Topo (GeoTIFF file name)
+
+Some attribute fields may not have valid values available. If you are unable to find a valid value, leave the field blank and/or make a note in the "Comments" field.
 
 Sources:
 - [Google Maps](https://www.google.com/maps)
