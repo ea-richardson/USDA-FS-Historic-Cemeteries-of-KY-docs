@@ -113,5 +113,7 @@ else:
 
 7. Notify the appropriate personnel by email (supervisor and senior intern, if applicable) that the county assignment has been uploaded to Box and is ready for QC review. Do not attach the project files to the email; simply provide notification that the submission is available in the appropriate county folder.
 
+8. When completing a rework (i.e., QC has been completed and corrections have been requested), create a `QC2` folder in the County folder, and place the zipped GDB with the applied calls inside. Also include a zipped copy of the QC1 shapefile with fields `Fixer` and `Response` populated.
+
 {: .warning }
 All submissions must be uploaded to Box. **Do not email assignment files.** The `Source` folder, if present, contains supplemental datasets and instructions and should not be modified unless directed.
