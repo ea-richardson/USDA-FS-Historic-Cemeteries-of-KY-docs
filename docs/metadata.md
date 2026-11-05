@@ -119,10 +119,11 @@ else:
     print(f"No feature class found with the name '{county}_County'.")
 ```
 
-
+---
 { .note }
 Do NOT complete the steps below unless you have applied QC1 calls and/or have approval to create the point feature class.
 
+---
 
 ## Create a cemetery point feature class
 
