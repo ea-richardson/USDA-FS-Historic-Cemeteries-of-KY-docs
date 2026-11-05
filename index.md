@@ -22,7 +22,7 @@ This phase of the project is generally proceeding **east to west**. Counties are
 * Rank 11 = westernmost group
 
 {: .note }
-Output Projected Coordinate System (PCS): NAD 1983 StatePlane Kentucky FIPS 1600 (US Feet)
+**Product Projected Coordinate System (PCS):** NAD 1983 StatePlane Kentucky FIPS 1600 (US Feet)
 
 ## Project Principles
 
