@@ -76,8 +76,42 @@ if folder_path:
 else:
     print("No folder was selected. The process has been cancelled.")
 ```
+
 **Save the project, close ArcGIS Pro, then:**
 
-1. Navigate to the new geodatabase location using File Explorer (refer to the path in the output message above).
-2. Compress the geodatabase into a ZIP file.
-3. Email the ZIP file to the senior intern and/or supervisor. Please also send the quadrangles for reference.
+1. Navigate to the appropriate county folder in Box:
+   - Open **External VSFS GIS Cemetery Mapping Project**.
+   - Navigate to **[00] Inbox**.
+   - Open the numbered folder corresponding to your assigned rank group (1–11), then open your assigned county folder.
+   - **Do not use [01] Final or [99] Archive unless specifically directed.**
+
+2. Upload the topographic maps:
+   - Create a ZIP archive named `topos.zip` containing all `.tif` files for the assigned county.
+   - Include only TIF files. Do not include Microsoft Edge HTML documents, `.ovr` files, or other unnecessary files.
+   - Upload `topos.zip` directly into the county folder.
+
+3. Create a folder named `QC1` inside the county folder.
+
+4. Prepare and upload the geodatabase:
+   - Ensure the completed geodatabase contains a single polygon feature class.
+   - Compress the geodatabase into a ZIP archive.
+   - Upload the ZIP archive into the `QC1` folder.
+
+5. Verify that the submission contains the following structure:
+
+   ```text
+   [00] Inbox/
+   └── [Rank Group]/
+       └── [County]/
+           ├── Source/              (if provided; do not modify)
+           ├── topos.zip
+           └── QC1/
+               └── [Geodatabase].zip
+   ```
+
+6. Once QC1 has been completed by the QCer, a `QC1_Calls.zip` containing a shapefile will be added to the `QC1` folder. **Interns do not need to create or upload this file.**
+
+7. Notify the appropriate personnel by email (supervisor and senior intern, if applicable) that the county assignment has been uploaded to Box and is ready for QC review. Do not attach the project files to the email; simply provide notification that the submission is available in the appropriate county folder.
+
+{: .warning }
+All submissions must be uploaded to Box. **Do not email assignment files.** The `Source` folder, if present, contains supplemental datasets and instructions and should not be modified unless directed.
